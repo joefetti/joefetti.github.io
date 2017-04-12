@@ -1,0 +1,21 @@
+# Site settings
+title: The Source Code
+header-img: img/home-bg.png
+email: jtim0905@gmail.com
+copyright_name: joefetti
+description: > # this means to ignore newlines until "baseurl:"
+  The Journey
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: joe_fetti
+github_username:  joefetti
+learn_profile: joefetti
+email_username: jtim0905@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
